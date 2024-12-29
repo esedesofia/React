@@ -1,7 +1,11 @@
-import React from 'react';
+import FormTask from './components/FormTask';
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <FormTask />
+    </div>
+  );
 }
 
 export default App;
