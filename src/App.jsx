@@ -1,10 +1,12 @@
 import FormTask from './components/FormTask';
+import ListTask from './components/ListTask';
 
 function App() {
   return (
-    <div>
+    <main className='main-content'>
       <FormTask />
-    </div>
+      <ListTask />
+    </main>
   );
 }
 

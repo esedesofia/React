@@ -7,6 +7,12 @@ body {
   font-family: 'Source Code Pro', serif;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .form-task {
   background-color: #ffe5e5;
   padding: 2rem;
@@ -52,4 +58,18 @@ body {
 
 .form-task button.active {
   color: #ffe5e5;
+}
+
+/* Lista de tareas */
+
+.list-task li {
+  background-color: #ffe5e5;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.list-task li:not(:last-of-type) {
+  margin-bottom: 1rem;
 }
